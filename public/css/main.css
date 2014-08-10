@@ -1,0 +1,348 @@
+html
+{
+overflow-x: hidden;
+}
+
+.footer_fix{
+min-height: 100%;
+position: relative;
+}
+
+.top_brown
+{
+background-color: rgb(49,34,24);
+position: absolute;
+width: 100%;
+height: 175px;
+z-index: -5;
+}
+
+.top_green
+{
+background-color: rgb(106,130,58);
+position: absolute;
+top:175px;
+width: 100%;
+height: 75px;
+z-index: -5;
+}
+
+.bottom_brown
+{
+background-color: rgb(49,34,24);
+position:absolute;
+	bottom:0;
+height: 60px;
+width: 100%;
+z-index: -5;
+}
+
+.header
+{
+background-color: rgb(49,34,24);
+}
+
+.nav
+{
+background-color: rgb(106,130,58);
+}
+
+.main_wrap
+{
+background-color: rgb(248,247,236);
+padding-right: 20px;
+}
+
+.container
+{
+box-shadow: 10px 0px 20px #bebc9c, -10px 0px 20px #bebc9c;
+}
+
+body
+{
+background-color: rgb (236,237,211);
+font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+
+}
+
+/*LOGIN/SIGN UP */
+
+.login_holder
+{
+	position: relative;
+	top: 120px;
+}
+
+.login_holder ul
+{
+list-style: none;
+}
+
+.login_holder li
+{
+display: inline;
+padding-left: 20px;
+}
+
+.login_holder a
+{
+color: white;
+font-size: 15px;
+}
+
+
+/* END LOGIN/SIGN UP */
+
+
+/* Nav/Header Styles */
+
+.logo h1
+{
+color: white;
+position: relative;
+left: 50px;
+padding-top: 10px;
+}
+
+.farm_lands
+{
+position: relative;
+left: 40px;
+}
+
+.lands
+{
+color: rgb(239,111,41);
+}
+
+.nav
+{
+background-color: rgb(128,158,70);
+}
+
+.nav ul
+{
+list-style: none;
+margin-top: 5px;
+}
+
+.nav ul li
+{
+display: inline;
+font-size: 20px;
+border-right: 1px solid rgba(161, 198, 88, 0.74);
+}
+
+.nav a
+{
+color: white;
+display: inline-block;
+padding: 10px;
+}
+
+.nav ul li a:hover {
+background-color: rgb(84,114,26);
+text-decoration: none;
+}
+
+/* End Nav Styles */
+
+
+/* Start Slider Area Styles */
+
+.main_content
+{
+position: relative;
+}
+.top_content
+{
+margin-top: 25px;
+font-size: 12px;
+}
+
+.top_content ul
+{
+list-style: none;
+}
+
+.right
+{
+position: absolute;
+top: 10%;
+left: 53%;
+z-index: 50;
+}
+
+.left
+{
+position: absolute;
+top: 10%;
+left: 3%;
+z-index: 50;
+}
+
+.desc
+{
+border-top: 2px solid rgba(205, 204, 195, 0.74);
+border-bottom: 2px solid rgba(205, 204, 195, 0.74);
+}
+.more_details 
+{
+margin-top: 5px;
+color: red;
+}
+
+.more_details a
+{
+color: red;
+}
+
+/* End Slider Area Styles */
+
+
+/* Premium Listing Styles */
+
+.featured_content
+{
+margin-top: 25px;
+text-align: center;
+border-bottom: 2px solid rgba(205, 204, 195, 0.74);
+}
+
+
+/* END OF Premium Listing Styles */
+
+
+/* Featured Listing Styles */
+
+
+.premium_listing_wrap 
+{
+color: black;
+}
+.featured_listings
+{
+margin-top: 20px;
+}
+
+.featured_listings_wrap
+{
+margin-top: 25px;
+background-color: rgb(195,212,213);
+padding-top: 10px;
+padding-bottom: 10px;
+border: 1px solid rgb(112,121,122);
+}
+.featured_listings_wrap ul
+{
+list-style: none;
+}
+/* End Of Featured Listing Styles */
+
+
+/* Basic Listing Styles */
+.regular_listings
+{
+margin-top: 20px;
+}
+
+.regular_listings_wrap
+{
+border-bottom: 2px solid rgba(205, 204, 195, 0.74);
+padding-bottom: 10px;
+}
+
+.regular_listings_wrap ul
+{
+list-style: none;
+}
+/* END Listing Styles */
+
+
+/* SIDEBAR STYLES HERE */
+
+.sidebar ul
+{
+list-style: none;
+margin: 0;
+padding: 0;
+
+}
+.sidebar select, .sidebar input
+{
+float: right;
+clear: both;
+display: block;
+}
+select, input
+{
+background-color: rgb(192,161,144);
+
+}
+.id
+{
+width: 50px;
+}
+.city
+{
+width: 150px;
+}
+
+.form_wrap
+{
+width: 75%;
+}
+
+.sign_up
+{
+border-bottom: 2px solid rgba(205, 204, 195, 0.74);
+margin-top: 35px;
+}
+
+.red_text
+{
+color: red;
+}
+
+
+
+
+/* END SIDEBAR STYLES HERE */
+
+
+/*Footer Styles */
+.footer
+{
+height: 80px;
+width: 102%;
+position: relative;
+left: 12px;
+background-color: rgb(49,34,24);
+clear: both;
+
+}
+
+/*End Footer Styles */
+
+
+/*SINGLE LISTING PAGE */
+
+.main_image
+{
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+.mini_image_wrap
+{
+margin-top: 20px;
+}
+
+/*End SINGLE LISTING PAGE */
+
+
+/*CREATE LISTING PAGE */
+
+
+
+/*END CREATE LISTING PAGE */
